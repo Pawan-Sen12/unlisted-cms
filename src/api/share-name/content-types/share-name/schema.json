@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "share_names",
+  "info": {
+    "singularName": "share-name",
+    "pluralName": "share-names",
+    "displayName": "Share Name"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "price": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fundamentals_json": {
+      "type": "json"
+    },
+    "holdings_json": {
+      "type": "json"
+    }
+  }
+}

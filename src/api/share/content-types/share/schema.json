@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shares",
+  "info": {
+    "singularName": "share",
+    "pluralName": "shares",
+    "displayName": "share"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "sector": {
+      "type": "string"
+    },
+    "about": {
+      "type": "json"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
